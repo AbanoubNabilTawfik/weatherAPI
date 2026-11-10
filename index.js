@@ -5,5 +5,5 @@ app.get('/api/weather', (req, res)=>  {
     var temp=parseInt(Math.random() * (20));
     res.send("Temperature today is: " + temp);
 });
-
+console.log("hello");
 app.listen(8080, ()=>console.log('Listening on port 8080'));
